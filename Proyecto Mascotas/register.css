@@ -1,0 +1,132 @@
+body{
+    font-family:arial;
+    background-color: rgb(70, 85, 219);
+}
+
+.formulario{
+    background-color:#dedede;
+    padding:10px 30px;
+    border-radius:10px;
+    border: 5px solid rgb(2, 2, 83);
+    width:440px;
+    margin-right:auto;
+    background-color: rgb(102, 158, 233);
+    color:rgb(2, 2, 83);
+}
+
+.formulario input{
+    display:block;
+    margin:5px;
+    width:80%;
+    padding:5px;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+
+.formulario select{
+    display:block;
+    margin:5px;
+    width:83%;
+    padding:5px;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+
+.error{
+    background:rgb(247, 151, 151);
+    border:15px solid red;
+}
+
+.card{
+    background-color: rgb(107, 235, 207);
+    border:2px solid black;
+    border-radius: 10px;
+    width:450px;
+    margin-top: 30px 0px;
+    margin-bottom: 30px;
+}
+
+#mascotas{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    margin-left: 280px;
+}
+
+img{
+    border: 5px solid rgb(2, 2, 83);
+    border-radius: 10px;
+}
+
+button{
+    font-size: 15px;
+    background-color:rgb(2, 2, 83);
+    color:white;
+    height: 35px;
+    border:solid white;
+    border-radius:15px;
+    margin-left: 340px;
+    text-transform: uppercase;
+    cursor:pointer;
+    }
+
+.columnas{
+    display:flex;
+}
+
+.columna1{
+    width:800px;
+}
+
+.columna2{
+    width:1200px;
+}
+
+a{
+    background-color: aqua;
+}
+
+p{
+    padding: 5px 0px 0px 15px;
+}
+
+.tarjeta{
+color:rgb(22, 25, 192);
+padding-top: 10px;
+font-style:italic;
+}
+
+.mostrar{
+    font-size: 15px;
+    background-color:rgb(2, 2, 83);
+    color:white;
+    height: 35px;
+    border:solid rgb(100, 198, 236);
+    border-radius:15px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    cursor:pointer;
+    width:210px;
+    }
+
+.c{
+    background-color: rgb(181, 223, 243);
+    text-align: right;
+    color:blue;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+.cuadro{
+    border:10px solid rgb(2, 2, 83);
+    border-radius: 10px;
+    width:1055px;
+
+}
+
+.titulo3{
+    padding-left: 25px;
+    padding-top: 15px;
+}

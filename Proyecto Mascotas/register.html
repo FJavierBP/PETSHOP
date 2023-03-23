@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="columnas">
+        <div class="columna1">
+            <div class="a"><img src="img/titulo2.jpg" alt="es el titulo" width="500"></div>
+            <div class="titulo"><img src="img/registro.png" alt="es el titulo" width="500"></div>
+            <div class="formulario">
+                <p>Nombre de la Mascota: <input type="text" id="txtNombre"></p>
+                <p>Tipo de Animal: <select id="selAnimal">
+                    <option value="" disabled selected>--Selecciona un tipo de animal--</option>
+                    <option value="Perro">Perro</option>
+                    <option value="Gato">Gato</option>
+                    <option value="Roedor">Roedor</option>
+                    <option value="Pajaro">Pájaro</option>
+                    <option value="Pez">Pez</option>
+                    <option value="Reptil">Reptil</option>
+                    <option value="Otros">Otros</option>
+                </select></p>
+                <p>Género: <select id="selGenero"></p>
+                    <option value="" disabled selected>--Selecciona una opción--</option>
+                    <option value="Macho">Macho</option>
+                    <option value="Hembra">Hembra</option>
+                </select></p>
+                <p>Esterilizado: <select id="selEsterilizado">
+                    <option value="" disabled selected>--Selecciona una opción--</option>
+                    <option value="Si">Si</option>
+                    <option value="No">No</option>
+                    <option value="No Aplica">No Aplica</option>
+                </select></p>
+                <p>Edad: <input type="text" id="txtEdad"></p>
+                <p>Marca de Alimento: <select id="selMarca">
+                    <option value="" disabled selected>--Selecciona una opción--</option>
+                    <option value="Purina">Purina</option>
+                    <option value="Pedigree">Pedigree</option>
+                    <option value="Royal">Royal</option>
+                    <option value="Reptile">Reptile</option>
+                    <option value="Loma">Loma</option>
+                    <option value="Mar">Mar</option>
+                </select></p>
+                <p>Nombre del Dueño: <input type="text"  id="txtDueno"></p>
+                <p>Teléfono: <input type="text"  id="txtTelefono"></p>
+                
+                
+                <button onclick="registro();">Registrar</button>
+            </div>
+            
+        </div>
+
+        <div class="columna2">
+            <div class="cuadro">
+                <div class="titulo3"><img src="img/titulo3.jpg" alt="es el titulo" width="1000" height="100"></div>
+                <button class="mostrar" onclick="displayCardsuno();">Iniciar</button>
+                <button class="mostrar" onclick="displayCardsiguiente();">Siguiente Registro</button>
+                <button class="mostrar" onclick="displayCardsatras();">Anterior Registro</button>
+                <button class="mostrar" onclick="buscar();">Anterior Registro</button>
+                <div id="mascotas">
+                    
+
+                </div>
+            </div>
+        </div>
+</div>
+    </div>
+    <script src="scripts/register.js"></script>
+    <script src="scripts/display.js"></script>
+</body>
+</html>
